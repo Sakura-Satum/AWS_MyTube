@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-11-29T20:48:59.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" etag="GWFKgEXHgh96iymvUmRE" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0" pages="2">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -280,6 +280,83 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="259.88235294117635" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bg2ifd4XZTi9vxDV_YNj" name="Page-2">
+    <mxGraphModel dx="1461" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYTFnaMS_rLXBnfcUirW-2" target="uYTFnaMS_rLXBnfcUirW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYTFnaMS_rLXBnfcUirW-2" target="uYTFnaMS_rLXBnfcUirW-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="113" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-2" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-3" value="Institute&amp;nbsp;&lt;div&gt;Admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="510" height="270" as="geometry">
+            <mxRectangle x="240" y="60" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-6" value="Register to the App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uYTFnaMS_rLXBnfcUirW-4">
+          <mxGeometry x="150" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="uYTFnaMS_rLXBnfcUirW-4" source="uYTFnaMS_rLXBnfcUirW-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="150" as="sourcePoint" />
+            <mxPoint x="220" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.56;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uYTFnaMS_rLXBnfcUirW-4" source="uYTFnaMS_rLXBnfcUirW-6" target="uYTFnaMS_rLXBnfcUirW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202.5" y="230" as="sourcePoint" />
+            <mxPoint x="190" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-12" value="Institute" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uYTFnaMS_rLXBnfcUirW-4">
+          <mxGeometry x="30" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-13" value="HomeSchool" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uYTFnaMS_rLXBnfcUirW-4">
+          <mxGeometry x="185" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.588;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uYTFnaMS_rLXBnfcUirW-4" source="uYTFnaMS_rLXBnfcUirW-6" target="uYTFnaMS_rLXBnfcUirW-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="110" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-25" value="Pay Subscription" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="uYTFnaMS_rLXBnfcUirW-4">
+          <mxGeometry x="360" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-26" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uYTFnaMS_rLXBnfcUirW-4" source="uYTFnaMS_rLXBnfcUirW-6" target="uYTFnaMS_rLXBnfcUirW-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="64.5" as="sourcePoint" />
+            <mxPoint x="440" y="64.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-19" value="Parent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uYTFnaMS_rLXBnfcUirW-2" target="uYTFnaMS_rLXBnfcUirW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="520" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uYTFnaMS_rLXBnfcUirW-28" value="Institute Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
