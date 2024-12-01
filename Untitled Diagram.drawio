@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="4">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -546,6 +546,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RhShyxykE4a2QTDap0Xn-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RhShyxykE4a2QTDap0Xn-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="460" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="RhShyxykE4a2QTDap0Xn-4" value="Add New Module" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="310" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RhShyxykE4a2QTDap0Xn-5" value="view modules" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="45" y="30" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RhShyxykE4a2QTDap0Xn-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RhShyxykE4a2QTDap0Xn-2" source="RhShyxykE4a2QTDap0Xn-4" target="RhShyxykE4a2QTDap0Xn-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="250" as="sourcePoint" />
+            <mxPoint x="280" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-2" value="load pre modules" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="310" y="110" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RhShyxykE4a2QTDap0Xn-2" source="RhShyxykE4a2QTDap0Xn-5" target="9-33PTV8ZCJ0T_4sFNlw-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="250" as="sourcePoint" />
+            <mxPoint x="416" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-3" value="upload lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="50" y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RhShyxykE4a2QTDap0Xn-2" source="9-33PTV8ZCJ0T_4sFNlw-3" target="9-33PTV8ZCJ0T_4sFNlw-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="195" y="75" as="sourcePoint" />
+            <mxPoint x="320" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-5" value="Load suggested lessons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="320" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-6" value="Assign lessons to students." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="50" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9-33PTV8ZCJ0T_4sFNlw-7" value="&lt;span id=&quot;docs-internal-guid-261bd8b1-7fff-4735-2bb5-0b5dd0f5990c&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;define the lesson, milestones, level, and assignments&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="RhShyxykE4a2QTDap0Xn-2">
+          <mxGeometry x="50" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RhShyxykE4a2QTDap0Xn-3" value="LMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
