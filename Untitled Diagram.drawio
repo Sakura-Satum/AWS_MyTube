@@ -554,25 +554,25 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PZ5ixw7tfNT8tuS-zYbM-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="30" width="480" height="1060" as="geometry" />
+          <mxGeometry x="220" y="20" width="480" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="PZ5ixw7tfNT8tuS-zYbM-1" value="view overall progress" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="60" y="190" width="140" height="70" as="geometry" />
+          <mxGeometry x="30" y="95" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mhoS6Svsc-LUXCwJiQbA-1" value="&lt;span id=&quot;docs-internal-guid-188b99d4-7fff-7c60-0602-668119f60989&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;take a daily note of the student&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="60" y="110" width="160" height="70" as="geometry" />
+          <mxGeometry x="20" y="360" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-3" value="&lt;p style=&quot;margin-left:36.0pt&quot; class=&quot;MsoNormal&quot;&gt;upload special moment of student&lt;br/&gt;to the gallery&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="10" y="360" width="240" height="80" as="geometry" />
+          <mxGeometry x="10" y="10" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-6" value="View galary" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="40" y="450" width="140" height="70" as="geometry" />
+          <mxGeometry x="20" y="300" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-7" value="&lt;span id=&quot;docs-internal-guid-6ab6ff6b-7fff-7ba0-dabe-f3601b5adde3&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;Set up goals &lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="70" y="270" width="120" height="80" as="geometry" />
+          <mxGeometry x="30" y="230" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-9" value="notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="300" y="275" width="140" height="70" as="geometry" />
+          <mxGeometry x="210" y="210" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-10" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="o_4YbKYB6ORMaLWxjt-1-7" target="o_4YbKYB6ORMaLWxjt-1-9">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -581,28 +581,73 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pb0iPYOhGKB71KOQwLc7-1" value="&lt;span id=&quot;docs-internal-guid-ad24767c-7fff-c1eb-da6f-4c2e1030a36b&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;Speech-to-Text and text-to-speech toggle&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="290" y="120" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pb0iPYOhGKB71KOQwLc7-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="pb0iPYOhGKB71KOQwLc7-1" target="mhoS6Svsc-LUXCwJiQbA-1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="270" y="190" as="sourcePoint" />
-            <mxPoint x="430" y="190" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="250" y="340" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pb0iPYOhGKB71KOQwLc7-3" value="set up study plan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="260" y="30" width="140" height="70" as="geometry" />
+          <mxGeometry x="330" y="20" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pb0iPYOhGKB71KOQwLc7-4" value="Chat option&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22View%20galary%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22300%22%20y%3D%22480%22%20width%3D%22140%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="50" y="530" width="140" height="70" as="geometry" />
+          <mxGeometry x="35" y="440" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pb0iPYOhGKB71KOQwLc7-5" value="schedule meetings and work" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="50" y="620" width="140" height="70" as="geometry" />
+          <mxGeometry x="40" y="520" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pb0iPYOhGKB71KOQwLc7-6" value="request for meeting" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="50" y="700" width="140" height="70" as="geometry" />
+          <mxGeometry x="35" y="680" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="YZ1AGqvaa30qJvQ1ehRb-1" value="&lt;span id=&quot;docs-internal-guid-5d574a16-7fff-5bb0-9eb2-bab7b5de6cba&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;Mindfulness and Relaxation Panel&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
-          <mxGeometry x="50" y="790" width="140" height="70" as="geometry" />
+          <mxGeometry x="20" y="1000" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="mhoS6Svsc-LUXCwJiQbA-1" target="pb0iPYOhGKB71KOQwLc7-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="220" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="pb0iPYOhGKB71KOQwLc7-4" target="pb0iPYOhGKB71KOQwLc7-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="250" as="sourcePoint" />
+            <mxPoint x="230" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-3" value="video call option" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="260" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="pb0iPYOhGKB71KOQwLc7-4" target="PZ0J1q-tKRtab84p4HUp-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="159" y="543" as="sourcePoint" />
+            <mxPoint x="281" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-5" value="&lt;span id=&quot;docs-internal-guid-eef453d9-7fff-f2a6-652f-bfb6cea376fd&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px;&quot;&gt;Daily Overview Panel&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="40" y="760" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-8" value="Calender Notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="200" y="830" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.993;exitY=0.41;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PZ5ixw7tfNT8tuS-zYbM-2" source="PZ0J1q-tKRtab84p4HUp-5" target="PZ0J1q-tKRtab84p4HUp-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="575" as="sourcePoint" />
+            <mxPoint x="270" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-9" value="make note visible&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="230" y="670" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-10" value="&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;Ask permission for&amp;nbsp;&lt;span id=&quot;docs-internal-guid-85b75298-7fff-79f1-a9fb-f7ff3847049a&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;some &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot;&gt;occasions or trips&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="20" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-11" value="give permission for&amp;nbsp;&lt;span id=&quot;docs-internal-guid-85b75298-7fff-79f1-a9fb-f7ff3847049a&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;some occasions or trips&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="20" y="840" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-12" value="map of&amp;nbsp;&lt;span id=&quot;docs-internal-guid-e8bccb2e-7fff-ffac-54bc-4fc09c0f9194&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;therapist and external teachers near them&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="20" y="913" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-13" value="&lt;span id=&quot;docs-internal-guid-fbe0dde2-7fff-5321-f827-6aa2e77d3f22&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;keep a log of the health of students&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="320" y="750" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PZ0J1q-tKRtab84p4HUp-14" value="Approve meetings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PZ5ixw7tfNT8tuS-zYbM-2">
+          <mxGeometry x="40" y="600" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="o_4YbKYB6ORMaLWxjt-1-1" value="&lt;b&gt;LMS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" width="60" height="30" as="geometry" />
